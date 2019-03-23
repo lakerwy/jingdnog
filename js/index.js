@@ -69,7 +69,7 @@ function startTime(){
 	var h = today.getHours();
 	var m = today.getMinutes();
 	var s =today.getSeconds();
-	hs.innerHTML = checkTime(20-h);
+	hs.innerHTML = checkTime(24-h);
 	ms.innerHTML = checkTime(60-m);
 	ss.innerHTML = checkTime(60-s);
 	setTimeout(function(){startTime()},500);
